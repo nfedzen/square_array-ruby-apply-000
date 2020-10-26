@@ -5,4 +5,7 @@ def square_array(array)
     square = number ** 2
     new_array.push(square)
   end
+  
+  return new_array
+  
 end
