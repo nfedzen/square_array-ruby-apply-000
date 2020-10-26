@@ -2,8 +2,11 @@ def square_array(array)
   # your code here
   new_array = []
   
-  array.collect{|number| number ** 2}
+  array.each do |number|
+    square = number ** 2
+    new_array.push(square)
+  end
   
-  
+  return new_array
   
 end
